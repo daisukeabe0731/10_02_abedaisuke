@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="facedetection.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="jquery.facedetection.js"></script>
+    <script src="fire-facedetection.js"></script>
+
+    <title>JavaScript顔認証</title>
+</head>
+<body>
+
+    <h1>JavaScriptで顔認証やってみた</h1>
+    
+    <p class="lead">ライブラリ「FACE DETECTION」を使った顔認証。<br>
+    顔と認識した範囲に枠線を付け、その範囲を座標で取得します。</p>
+
+    <hr>
+
+    <h2>プログラムの実行結果</h2>
+
+    <figure>
+        <img src="./hakfes.jpg" id="face-image" class="face-image">
+    </figure>
+
+    <h2>取得したデータの値</h2>
+    <p class="situation">x:顔範囲のX座標　y:顔範囲のY座標　width:顔範囲の横幅　height:顔範囲の縦幅　positionX:親要素内の顔範囲の縦位置　positionY:親要素内の顔範囲の横位置　offsetX:ドキュメント内の顔範囲の横位置<br>
+        offsetY:ドキュメント内の顔範囲の縦位置　scaleX:画像のオリジナルサイズの横幅と表示されている横幅の比率　scaleY:画像のオリジナルサイズの縦幅と表示されている縦幅の比率<br>
+        confidence:プログラムが独自に算出した顔認識の信頼性を示すレベル値</p>
+
+    <div class="textbox">
+    <textarea rows="8" id="face-data"></textarea>
+    </div>
+
+    <hr>
+
+
+</body>
+
+</html>

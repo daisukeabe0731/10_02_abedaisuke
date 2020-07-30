@@ -1,0 +1,40 @@
+h1{
+	text-align: center;
+}
+
+.lead{
+	text-align: center;
+}
+
+hr{
+	margin: 2em 0 ;
+}
+
+figure
+{
+	text-align: center ;
+}
+
+h2,.situation{
+	margin-left: 4%;
+	margin-top: 20px;
+}
+
+.situation{
+	font-size: 40%;
+}
+
+.face-image{
+	max-width: 100% ;
+	height: auto ;
+}
+
+.textbox{
+	text-align: center ;
+}
+
+textarea{
+	width: 90% ;
+	height: 200px ;
+}
+
